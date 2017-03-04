@@ -21,12 +21,12 @@ print PROJECT_ROOT
 # See https://docs.djangoproject.com/en/1.10/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = 'vmir_#fcaoqec@w=y33#ep8*#wta-esq&v%o-s%^j1hzoo9ifq'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['mrcob.herokuapp.com']
 
 
 # Application definition
