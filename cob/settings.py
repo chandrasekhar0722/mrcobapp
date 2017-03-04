@@ -26,7 +26,7 @@ SECRET_KEY = 'vmir_#fcaoqec@w=y33#ep8*#wta-esq&v%o-s%^j1hzoo9ifq'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mrcob.herokuapp.com']
 
 
 # Application definition
